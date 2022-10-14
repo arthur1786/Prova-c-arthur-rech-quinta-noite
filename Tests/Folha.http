@@ -1,0 +1,12 @@
+### Listar as folhas
+GET https://localhost:5001/api/folha/listar
+
+### Cadastrar folha 
+POST https://localhost:5001/api/folha/cadastrar
+Content-Type: application/json
+
+{
+    "valorHora" : 50,
+    "quantidadeHoras" : 100, 
+    "funcionarioid" : 1
+}
